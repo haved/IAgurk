@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title id="siteTitle">ICucumber</title>
+		<link rel="stylesheet" type="text/css" href="IAgurk.css">
+		<script src="IAgurk.js"></script>
+		<script src="IAgurkLANG.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<button id="enButton" class="languageButton" onclick="localizeEN()">English</button>
+			<button id="nnButton" class="languageButton" onclick="localizeNN()">Nynorsk</button>
+		</div>
+		<br>
+		<center>
+			<h1 id="title" class="title">ICucumber</h1>
+			<div id="IAgurkWidget" class="IAgurkWidget">
+				<NOBR>
+					<input id="valueNumber1" class="valueNumber" type="text">
+					<select id="valueSelect1" class="valueSelect">
+					</select>
+				</NOBR>
+				<br>
+				<NOBR>
+					<button id="switchButton" class="widgetButton" onclick="switc()">switch</button>
+					<select id="foodSelect" class="foodSelect">
+					</select>
+					<button id="calcButton" class="widgetButton" onclick="calc()">calc</button>
+				</NOBR>
+				<br>
+				<NOBR>
+					<input id="valueNumber2" class="valueNumber" type="text">
+					<select id="valueSelect2" class="valueSelect">
+					</select>
+				</NOBR>
+			</div>
+		</center>
+		
+		<script> fillLists();
+				 localizeNN(); </script>
+	</body>
+</html>
