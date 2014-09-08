@@ -1,22 +1,24 @@
 <html>
 	<head>
-		<title id="siteTitle">ICucumber</title>
+		<title id="siteTitle">iCucumber</title>
 		<link rel="stylesheet" type="text/css" href="IAgurk.css">
 		<script src="IAgurk.js"></script>
 		<script src="IAgurkLANG.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<button id="enButton" class="languageButton" onclick="localizeEN()">English</button>
-			<button id="nnButton" class="languageButton" onclick="localizeNN()">Nynorsk</button>
+			<div id="title" class="title">iCucumber</div>
+			<div class="languageButtons">
+				<button id="enButton" class="languageButton" onclick="localizeEN()">English</button>
+				<button id="nnButton" class="languageButton" onclick="localizeNN()">Nynorsk</button>
+			</div>
 		</div>
 		<br>
 		<center>
-			<h1 id="title" class="title">ICucumber</h1>
-			<div id="IAgurkWidget" class="IAgurkWidget">
+			<div id="iAgurkWidget" class="iAgurkWidget">
 				<NOBR>
 					<input id="valueNumber1" class="valueNumber" type="text">
-					<select id="valueSelect1" class="valueSelect">
+					<select id="metricSelect1" class="metricSelect">
 					</select>
 				</NOBR>
 				<br>
@@ -29,7 +31,7 @@
 				<br>
 				<NOBR>
 					<input id="valueNumber2" class="valueNumber" type="text">
-					<select id="valueSelect2" class="valueSelect">
+					<select id="metricSelect2" class="metricSelect">
 					</select>
 				</NOBR>
 			</div>
